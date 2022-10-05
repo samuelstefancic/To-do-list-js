@@ -1,0 +1,117 @@
+body {
+    background-color:#EAEBED;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*F*ck boostrap*/
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top:15px;
+}
+/*Titres principaux*/
+.title_app{
+    font-size: 40px;
+    opacity: 0.6;
+    color:#333;
+    padding-bottom: 0px;
+  }
+.secondary_title_app {
+    opacity: 0.4;
+    color:#333;
+}
+
+#titledeouf {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:5px;
+}
+
+/* Application et contenu */
+
+
+.container_app {
+    background-color: #FFFEFC;
+    width: 450px;
+    height: 650px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 2px solid #1C6EA4;*/ /*Beaucoup moins moche sans */
+    border-radius:15px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+
+
+.container_app::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+/* Partie Addnew */
+
+#addNew {
+    background-color:rgba(32, 95, 255, 0.4);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addNew > span > i  {
+    padding-left: 15px;
+}
+
+/* Titre de la tâche */
+#taskTitle {
+    color:black;
+    font-size: 19px;
+}
+/*Date de la tâche*/
+#dateTask {
+    opacity:0.8;
+    font-size:15px;
+}
+
+/* Tâches */
+
+.taches {
+    background-color:#EDECEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius:10px;
+    margin-bottom:15px;
+    width:350px;
+}
+
+/*Icones */
+
+.icones {
+    padding:10px;
+    cursor: pointer;
+}
+
+.taches > span.icones > i.fa-solid.fa-pencil {
+    margin-right:15px;
+}
+
+/* Module et changements */
+
+.form-control {
+    margin-bottom:15px;
+}
+
+.modal-content {
+    border-radius:15px!important;
+}
+
+/* Fail message */
+
+#failMessage {
+    color:red;
+    padding-bottom:15px;
+}
